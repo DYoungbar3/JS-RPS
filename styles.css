@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+table {
+    font-size: 24px;
+    border: 2px solid black;
+    padding: 3%;
+    background-color: #b6492d;
+    border-radius: 12px;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+th, td {
+    border: 2px solid black;
+}
+
+.game {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.player, .computer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+button {
+    margin: 3%;
+    font-size: 24px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 12px;
+}
